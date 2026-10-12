@@ -1,0 +1,31 @@
+{
+  "name": "eliza-plugin-autosanctions",
+  "version": "1.0.0",
+  "description": "ElizaOS plugin for OFAC sanctions checks via AutoSanctions.com",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --watch"
+  },
+  "dependencies": {
+    "@elizaos/core": "^0.1.7",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "elizaos",
+    "plugin",
+    "ai",
+    "agent",
+    "compliance",
+    "ofac",
+    "web3"
+  ],
+  "author": "SB Digital",
+  "license": "MIT"
+}
